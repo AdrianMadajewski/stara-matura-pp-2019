@@ -1,3 +1,8 @@
+/* -------------------------------------------
+Zadanie 6 Matura podstawowa STARA FORMULA 2019
+(C)2019 Adrian Madajewski XVI LO Poznan
+--------------------------------------------*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
