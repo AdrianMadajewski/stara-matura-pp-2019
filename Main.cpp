@@ -57,7 +57,7 @@ bool isValid(const string pesel)
 	uint value		{ 0 };
 	uint temp		{};
 
-	std::vector<int> multipliers{ 1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1 };
+	const std::vector<int> multipliers{ 1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1 };
 	for (uint i = 0; i < multipliers.size(); ++i)
 	{
 		temp = charToInt(pesel[i]);
