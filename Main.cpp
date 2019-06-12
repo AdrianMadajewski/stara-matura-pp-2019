@@ -70,11 +70,9 @@ bool isValid(const string pesel)
 int main()
 {
 	vec data				{ loadData("dane.txt") };
-
 	uint men				{ 0 };
 	uint women				{ 0 };
-	uint bornInNovember		{ 0 };
-
+	uint bornInNovember			{ 0 };
 	vec invalid				{};
 
 	for (auto pesel : data)
